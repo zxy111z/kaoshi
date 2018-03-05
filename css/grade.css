@@ -1,0 +1,105 @@
+@import "base.css";
+body{
+    background: #f5f5f5;
+}
+header{
+    width: 3.75rem;
+    height: 0.4rem;
+    background: #336699;
+    margin:0 auto;
+    position: relative;
+}
+#mobile{
+    position: absolute;
+    background: url(../img/ap01.png)center no-repeat;
+    background-position: 0px 0px;
+    height: 0.29rem;
+    width: 0.29rem;
+    overflow: hidden;
+    cursor: pointer;
+    float: left;
+    top: 0.04rem;
+    left: 0.05rem;
+}
+header a{
+    width: 0.7rem;
+    height: 0.3rem;
+    padding: 0 0.1rem;
+    font-size: 0.14rem;
+    color: #fff;
+    float: right;
+    margin-top: 0.1rem;
+}
+.ban{
+    width: 3.75rem;
+    height: 0.86rem;
+}
+
+.dialog{
+    width: 3.73rem;
+    height: 3.82rem;
+    padding: 0.01rem;
+}
+.l-header{
+    width: 3.73rem;
+    height: 0.43rem;
+    background: #3C7B99;
+}
+.l-title{
+    padding: 0.1rem 0;
+    width: 3.49rem;
+    height: 0.24rem;
+    font-size: 0.16rem;
+    line-height: 0.24rem;
+    display: block;
+    text-align: center;
+    color: #fff;
+    float: left;
+}
+.l-winbtns{
+    float: right;
+    margin-right: 8px;
+    margin-top: 0.15rem;
+}
+.l-close{
+    background: url("../img/gra01.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
+    overflow: hidden;
+    width: 0.16rem;
+    height: 0.16rem;
+}
+.l-body{
+    width: 3.49rem;
+    height: 3.15rem;
+    padding: 0.12rem;
+    background: #ffffff;
+}
+.l-content{
+    font-size: 0.14rem;
+    color: #009944;
+    line-height: 0.24rem;
+}
+.l-inner{
+    width: 3.49rem;
+    height: 0.51rem;
+}
+.jq-button{
+    min-height: 2.2em;
+    _height: 2.2em;
+    line-height: 2.2em;
+    border: 0;
+    vertical-align: middle;
+    text-align: center;
+    background: #E49958;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 0 2em;
+    _padding: 0 1em;
+    margin: 0.02rem 1.2rem;
+    font-size: 1em;
+    font-weight: bold;
+    -webkit-border-radius: 0.2em;
+    border-radius: 0.2em;
+    outline: none;
+}

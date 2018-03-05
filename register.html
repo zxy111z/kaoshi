@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>register.html</title>
+    <link rel="stylesheet" href="css/register.css">
+    <script src="js/rem.js"></script>
+</head>
+<body>
+<header>
+    <div class="head_top"><img src="img/head1.jpg" alt=""></div>
+    <div class="head_bottom">
+        <a class="deng" href="index.html">首页</a>
+        <a class="deng" href="login.html">现在登录</a>
+        <a class="deng" href="register.html">免费注册</a>
+    </div>
+</header>
+<nav>
+    <img src="img/nav1.png" alt="">
+    <p>永久免费的电子作业与在线考试系统云平台</p>
+</nav>
+<form action="">
+    <div class="input-box">
+        <input type="text" class="xin_1" placeholder="名称或姓名">
+        <div class="input-tips">不超过7个汉字，或14个字母/数字/下划线</div>
+    </div>
+    <div class="input-box">
+    <input type="text" class="xin_1" placeholder="密码" style="margin-bottom: 0.15rem">
+        </div>
+    <div class="input-box">
+    <input type="text" class="xin_1" placeholder="确认密码">
+    <div class="input-tips">密码长度6~32个字符，字母区分大小写。<br>必须使用两种或以上的数字/小写字母/大写字母/其他特殊符号的组合。</div>
+        </div>
+    <div class="input-box">
+    <input type="text" class="xin_1" placeholder="电子邮箱或手机号">
+    <div class="input-tips">当密码或账号遗失时凭此领取</div>
+        </div>
+    <div class="xin_2">
+        <div class="nobr-nopadding">你是？</div>
+        <div class="nobr-padding12">
+            <div id="student"></div>
+            <p>学生|考生</p>
+        </div>
+        <div class="nobr-padding12">
+            <div id="student"></div>
+            <p>老师|考试主管</p>
+        </div>
+        <div class="nobr-nopadding">
+        <a href="javascript:void(0);" class="jq-tooltip-over helptipsLink">
+            <span>&nbsp;</span>
+        </a>
+    </div>
+    </div>
+    <div class="xin_2">
+        <div class="nobr-nopadding">性别:</div>
+        <div class="nobr-padding12">
+            <div id="student"></div>
+            <p>男</p>
+        </div>
+        <div class="nobr-padding12">
+            <div id="student"></div>
+            <p>女</p>
+        </div>
+    </div>
+    <div class="input-box">
+        <input type="text" class="xin_1" placeholder="工作单位">
+    </div>
+    <div class="yan">
+        <input type="text" placeholder="验证码" name="pin" id="pin" maxlength="4" size="30" class="wInput wInput-input wInput-captcha wInput-theme-classic" autocomplete="off">
+        <div class="captcha-image">
+            <img id="captchaImage" src="">
+        </div>
+    </div>
+    <div class="agreement-tips-bar">
+        <div class="nopadding">点击注册即表明你已阅读过并且同意我们的</div>
+        <div class="nopadding">
+            <a href="" target="_self" class="agreement-link">考试酷网络服务使用协议。</a>
+        </div>
+    </div>
+
+    <a href="resuccess.html">
+    <button type="submit" id="jq_submit">注 册</button></a>
+</form>
+</body>
+</html>

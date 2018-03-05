@@ -1,0 +1,142 @@
+@import "base.css";
+
+header {
+    width: 3.75rem;
+    height: 0.64rem;
+    background: #336699;
+    margin: 0 auto;
+}
+
+.head_top {
+    width: 1.64rem;
+    height: 0.44rem;
+    padding: 0.1rem 0 0 0.08rem;
+    float: left;
+}
+
+.head_top img {
+    display: block;
+}
+
+.head_bottom {
+    float: right;
+    margin: 0.24rem 0;
+    background: #336699;
+    color: #fff;
+    padding: 0 0.1rem;
+    line-height: 0.3rem;
+    font-size: 0.14rem;
+}
+
+nav {
+    width: 3.65rem;
+    height: 0.24rem;
+    margin: 0.15rem auto;
+    padding-bottom: 0.15rem;
+    border-bottom: 0.01rem dashed #A0AFD4;
+}
+
+.title {
+    width: 1.01rem;
+    height: 0.24rem;
+    float: left;
+}
+
+nav img {
+    width: 0.3rem;
+    display: block;
+    float: left;
+}
+
+span {
+    font-size: 0.16rem;
+    color: #000;
+    float: left;
+    text-align: center;
+    line-height: 0.24rem;
+}
+
+.br-padding20 {
+    font-size: 0.16rem;
+    color: #000;
+    float: left;
+}
+
+nav a {
+    float: left;
+    font-size: .16rem;
+    color: blue;
+    margin-left: 0.15rem;
+}
+
+table {
+    width: 3.65rem;
+    margin: 0 auto;
+}
+
+.biao {
+    width: 3.65rem;
+    height: 0.26rem;
+    border: 1px solid #99bbe9;
+    font-size: 0.16rem;
+    line-height: 0.26rem;
+    padding: 0 0.1rem;
+    color: #16428b;
+    background: #D9E5F2;
+}
+
+tr {
+    border-top: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+    border-right: 1px solid #f9f9f9;
+    border-left: 1px solid #f9f9f9;
+    padding: 0 6px;
+    height: 26px;
+    white-space: nowrap;
+    word-break: break-all;
+    padding: 0 0.06rem;
+    height: 0.26rem;
+}
+
+tr .sq, .sp {
+    font-size: 0.14rem;
+    color: red;
+    width: 0.57rem;
+    float: left;
+}
+
+.sp {
+    color: #0C9E4C;
+}
+
+.sv {
+    float: left;
+}
+
+.titleLink {
+    color: #133DB6;
+    font-size: 0.14rem;
+}
+
+.lv {
+    width: 3.65rem;
+    height: 0.24rem;
+    margin: 0 auto;
+}
+.lv .br-padding{
+    font-size: 0.16rem;
+    color: #000;
+    float: left;
+    padding-right: 0.2rem ;
+}
+.lv .br-nopadding{
+    float: left;
+}
+
+
+.tips-bar {
+    margin: 0.2rem 0;
+    color: #a0a0a0;
+    font-size: 0.12rem;
+    line-height: 0.15rem;
+}

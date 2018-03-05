@@ -1,0 +1,274 @@
+@import "base.css";
+header{
+    width: 3.75rem;
+    height: 0.96rem;
+    background: #336699;
+    margin:0 auto;
+}
+.head_top{
+    width: 1.64rem;
+    height: 0.44rem;
+    padding: 0.1rem 0 0 0.08rem;
+}
+.head_top img{
+    display: block;
+}
+.head_bottom{
+    width: 2.24rem;
+    height: 0.32rem;
+    float: right;
+    margin-top: 0.1rem;
+    display: flex;
+    justify-content: space-around;
+}
+.deng{
+    width: 0.66rem;
+    height: 0.3rem;
+    background: #999966;
+    color:#fff;
+    font-size: 0.14rem;
+    text-align: center;
+    line-height: 0.3rem;
+    display: block;
+}
+.deng:nth-child(2){
+    background: #CC6666;
+}
+.deng:nth-child(3){
+    background: none;
+}
+nav{
+    width: 3.65rem;
+    height: 0.24rem;
+    margin: 0.15rem auto;
+}
+nav img{
+    width: 0.3rem;
+    display: block;
+    float: left;
+}
+nav p{
+    font-size: 0.12rem;
+    color: #000;
+    float: left;
+    text-align: center;
+    line-height: 0.24rem;
+}
+.cando{
+    width: 3.65rem;
+    height: 1.26rem;
+    margin: 0.05rem 0;
+}
+.cando h1{
+    font-size: 0.14rem;
+    color: #444444;
+    line-height: 0.21rem;
+}
+.sp{
+    width: 3.65rem;
+    height: 2.1rem;
+    margin: 0 auto;
+}
+.bar{
+    width: 2.08rem;
+    height: 1.6rem;
+    background: #79A6D2;
+    margin: 0.15rem;
+    padding:0.1rem 0.2rem 0.1rem 0.2rem;
+
+}
+.pin{
+    width: 2.08rem;
+    height: 0.6rem;
+}
+.pin p{
+    color: #f8f8f8;
+    font-size: .14rem;
+}
+.pin h1{
+    font-size: 0.3rem;
+    color: #f8f8f8;
+    float: right;
+}
+.qu{
+    display: block;
+    float: right;
+    font-size: 0.14rem;
+    color: #f8f8f8;
+}
+.teacher{
+    width: 3.65rem;
+    height: 2.22rem;
+    margin: 0.05rem auto;
+}
+.tea_top{
+    width: 3.65rem;
+    height: 1.11rem;
+    margin:0.15rem 0 ;
+}
+.top_left{
+    background: transparent url(../img/v1_1n.png) 0 0 no-repeat;
+    width: 0.48rem;
+    height: 0.48rem;
+    float: left;
+}
+.top_right{
+    width: 3.01rem;
+    height: 1.11rem;
+    float: left;
+    margin-left: 0.06rem;
+}
+.top_right h1{
+    font-size: 0.16rem;
+    color: #336699;
+    height: 0.24rem;
+}
+.top_right p{
+    font-size: 0.14rem;
+    color: #000;
+    line-height: 0.22rem;
+}
+.tea_bottom{
+    width: 3.65rem;
+    height: 1.11rem;
+    margin:0.15rem 0 ;
+}
+.bot_left{
+    background: transparent url(../img/v1_1n.png) -48px 0 no-repeat;
+    width: 0.48rem;
+    height: 0.48rem;
+    float: left;
+}
+.bot_right{
+    width: 3.01rem;
+    height: 1.11rem;
+    float: left;
+    margin-left: 0.06rem;
+}
+.bot_right h1{
+    font-size: 0.16rem;
+    color: #336699;
+    height: 0.24rem;
+}
+.bot_right p{
+    font-size: 0.14rem;
+    color: #000;
+    line-height: 0.22rem;
+}
+.box{
+    width: 3.65rem;
+    height: 1.5rem;
+    margin: 0 auto;
+}
+.ne{
+    width: 1.07rem;
+    height: 0.32rem;
+    background: #ee9966;
+    color: #fff;
+    padding: 0 0.06rem;
+    margin: 2px 3px 0 0px;
+    font-size: 0.14rem;
+    line-height: 0.3rem;
+    float: left;
+    text-align: center;
+    margin-right: 0.06rem;
+    display: block;
+}
+.nobr{
+    width: 2.3rem;
+    height: 1.2rem;
+    float: left;
+}
+.nobr li a{
+    display: inline-block;
+    padding-right:0.18rem;
+    float: left;
+    color: #336699;
+    font-size: 0.16rem;
+    line-height: 0.2rem;
+}
+.fort{
+    width: 3.75rem;
+    height: 0.56rem;
+    background: #f2f3f4;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.footer{
+    width: 3.75rem;
+    height: 0.32rem;
+    margin-top: 0.1rem;
+}
+.footer li a{
+    float: left;
+    color: #808080;
+    font-size: 0.12rem;
+    margin-left: 0.06rem;
+}
+.footer-wrapper{
+    position: relative;
+    float: none;
+    margin: 0 auto;
+    max-width: 760px;
+}
+.br-nopadding {
+    word-break: break-all;
+    padding-right: 1px;
+    display: inline-block;
+    color: #808080;
+    font-size: 0.12em;
+    line-height: 0.14rem;
+    text-align: center;
+    margin-left: 0.02rem;
+}
+.nobr-nopadding {
+    font-size: 0.12em;
+    color: #808080;
+    text-align: center;
+    line-height: 0.12rem;
+}
+.nobr-padding20 {
+    font-size: 0.12em;
+    color: #808080;
+    text-align: center;
+    line-height: 0.12rem;
+}
+.nobr-padding20 a{
+    font-size: 0.12em;
+    color: #808080;
+}
+.footer a:hover {
+    color: #808080;
+    text-decoration: underline;
+}
+.beian {
+    padding: 10px 0;
+}
+.nobr-padding20 {
+    font-size: 0.12em;
+    color: #808080;
+    text-align: center;
+    line-height: 0.12rem;
+}
+.footer a {
+    color: #808080;
+}
+.nobr{
+    /*width:3.75rem;*/
+    height: 0.2rem;
+    background: #f8f8f8;
+}
+.nobr img{
+    width: 20px;
+    height: 20px;
+    display: block;
+    float: left;
+}
+.nobr a{
+    display: block;
+    font-size: 0.12em;
+    color: #808080;
+    text-align: center;
+    line-height: 0.14rem;
+    float: left;
+}

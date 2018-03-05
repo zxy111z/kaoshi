@@ -1,0 +1,88 @@
+@import "base.css";
+header{
+    width: 3.75rem;
+    height: 0.4rem;
+    background: #336699;
+    margin:0 auto;
+    position: relative;
+}
+#mobile{
+    position: absolute;
+    background: url(../img/ap01.png)center no-repeat;
+    background-position: 0px 0px;
+    height: 0.29rem;
+    width: 0.29rem;
+    overflow: hidden;
+    cursor: pointer;
+    float: left;
+    top: 0.04rem;
+    left: 0.05rem;
+}
+header a{
+    width: 0.7rem;
+    height: 0.3rem;
+    padding: 0 0.1rem;
+    font-size: 0.14rem;
+    color: #fff;
+    float: right;
+    margin-top: 0.1rem;
+}
+.infoContent{
+    width: 3.65rem;
+    height: 3.5rem;
+    padding: 0.1rem 0.05rem;
+}
+.title-a{
+    width: 3.65rem;
+    height: 0.24rem;
+    margin: 0.2rem 0;
+    font-size: 0.16rem;
+    font-weight: bold;
+    color: #000;
+}
+.tips-bar{
+    margin: 0.2rem 0;
+    color: #a0a0a0;
+    font-size: 0.12rem;
+    line-height: 0.16rem;
+}
+.nobr{
+    width: 3.65rem;
+    height: 0.48rem;
+    margin: 0 0.2rem 0 0;
+    border-radius: 0.05rem;
+    border:0.01rem solid #fff;
+}
+#cid{
+    width: 3.4rem;
+    height: 0.48rem;
+    line-height: 0.22rem;
+    border-radius: 0.05rem;
+    border:0.01rem solid #ccc;
+    padding: 0 0.1rem;
+}
+#cid:focus{
+    outline: none;
+}
+#btnSearch{
+    line-height: 2.2em;
+    border: 0;
+    text-align: center;
+    background: #E49958;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 0 1em;
+    _padding: 0 1em;
+    margin: 0.04rem 0;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 0.2em;
+    outline: none;
+}
+.input-tips{
+    color: #a0a0a0;
+    font-size: 0.12rem;
+    line-height: 0.12rem;
+    margin-top: 0.08rem;
+}
+

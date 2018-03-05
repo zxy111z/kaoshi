@@ -1,0 +1,166 @@
+@import "base.css";
+header{
+    width: 3.75rem;
+    height: 0.96rem;
+    background: #336699;
+    margin:0 auto;
+}
+.head_top{
+    width: 1.64rem;
+    height: 0.44rem;
+    padding: 0.1rem 0 0 0.08rem;
+}
+.head_top img{
+    display: block;
+}
+.head_bottom{
+    width: 2.24rem;
+    height: 0.32rem;
+    float: right;
+    margin-top: 0.1rem;
+    display: flex;
+    justify-content: space-around;
+}
+.deng{
+    width: 0.66rem;
+    height: 0.3rem;
+    background: #999966;
+    color:#fff;
+    font-size: 0.14rem;
+    text-align: center;
+    line-height: 0.3rem;
+}
+.deng:nth-child(2){
+    background: #CC6666;
+}
+.deng:nth-child(3){
+    background: #F9F9F9;
+    color: #000;
+}
+nav{
+    width: 3.65rem;
+    height: 0.24rem;
+    margin: 0.15rem auto;
+}
+nav img{
+    width: 0.3rem;
+    display: block;
+    float: left;
+}
+nav p{
+    font-size: 0.12rem;
+    color: #000;
+    float: left;
+    text-align: center;
+    line-height: 0.24rem;
+}
+form{
+    width: 3.65rem;
+    height: 6.51rem;
+    margin: 0 auto;
+}
+.input-box{
+    width: 3.65rem;
+}
+.input-box .xin_1{
+    width: 3.65rem;
+    line-height: 2.2em;
+    height: 0.48rem;
+    border:1px solid #a0a0a0;
+    padding: 0.05rem;
+    box-sizing: border-box;
+    color: #ACACAC;
+    font-size: 0.14rem;
+    border-radius: 0.05rem;
+}
+.input-tips{
+    color: #a0a0a0;
+    font-size: 0.12rem;
+    line-height: 0.12rem;
+    margin: 0.05rem 0 0.15rem 0;
+}
+.xin_2{
+    width: 3.65rem;
+    height: 0.18rem;
+    margin: 0.12rem 0 0.1rem 0;
+}
+.xin_2 .nobr-nopadding{
+    font-size: 0.14rem;
+    line-height: 0.16rem;
+    float: left;
+    margin-right: 0.04rem;
+}
+.xin_2 .nobr-padding12{
+    float: left;
+    height: 0.16rem;
+
+}
+.nobr-padding12 #student{
+    width: 0.11rem;
+    height: 0.11rem;
+    background: #CECECE;
+    border:1px solid #B8B889;
+    border-radius:50%;
+    float: left;
+    margin-top: 0.02rem;
+    margin-right: 0.03rem;
+}
+.nobr-padding12 p{
+    font-size: 0.14rem;
+    color: #000;
+    line-height: 0.16rem;
+    float: left;
+    margin-right: 0.2rem;
+}
+#pin {
+    width: 2.55rem;
+    line-height: 2.2em;
+    height: 0.48rem;
+    border: 1px solid #a0a0a0;
+    padding: 0.05rem;
+    box-sizing: border-box;
+    color: #ACACAC;
+    font-size: 0.14rem;
+    float: left;
+    border-radius: 0.05rem;
+}
+.captcha-image {
+    width: 1rem;
+    height: 0.47rem;
+    background: #999966;
+    float: right;
+    border-radius: 0.05rem;
+}
+.yan{
+    height: 0.48rem;
+    margin-top: 0.15rem;
+}
+.agreement-tips-bar {
+    width: 3.65rem;
+    height: .36rem;
+    margin: 0.15rem 0;
+    color: #777777;
+    font-size: 0.12rem;
+    line-height: 0.15rem;
+    margin-bottom: 0.06rem;
+}
+.nopadding{
+    color: #777777;
+    font-size: 0.12rem;
+    line-height: 0.15rem;
+}
+.nopadding .agreement-link{
+    color: #3b5998;
+    font-size: 0.12rem;
+    line-height: 0.15rem;
+}
+#jq_submit {
+    width: 1.77rem;
+    height: 0.35rem;
+    background: #E49958;
+    color: #fff;
+    font-size: 0.1rem;
+    line-height: 0.22rem;
+    text-align: center;
+    border: none;
+}

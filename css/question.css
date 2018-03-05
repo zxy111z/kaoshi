@@ -1,0 +1,101 @@
+@import "base.css";
+header{
+    width: 3.75rem;
+    height: 0.64rem;
+    background: #336699;
+    margin:0 auto;
+}
+.head_top{
+    width: 1.64rem;
+    height: 0.44rem;
+    padding: 0.1rem 0 0 0.08rem;
+    float: left;
+}
+.head_top img{
+    display: block;
+}
+.head_bottom{
+    float: right;
+    margin: 0.24rem 0;
+    background: #336699;
+    color: #fff;
+    padding: 0 0.1rem;
+    line-height: 0.3rem;
+    font-size: 0.14rem;
+}
+nav{
+    width: 3.65rem;
+    height: 0.24rem;
+    margin: 0.15rem auto;
+}
+nav img{
+    width: 0.3rem;
+    display: block;
+    float: left;
+}
+nav p{
+    font-size: 0.16rem;
+    color: #000;
+    float: left;
+    text-align: center;
+    line-height: 0.24rem;
+}
+form {
+    width: 3.65rem;
+    height: 6.51rem;
+    margin: 0 auto;
+}
+.input-box{
+    width: 3.65rem;
+}
+.input-box .xin_1{
+    width: 3.65rem;
+    line-height: 2.2em;
+    height: 0.48rem;
+    border:1px solid #a0a0a0;
+    padding: 0.05rem;
+    box-sizing: border-box;
+    color: #ACACAC;
+    font-size: 0.14rem;
+    border-radius: 0.05rem;
+}
+.input-tips{
+    color: #a0a0a0;
+    font-size: 0.12rem;
+    line-height: 0.12rem;
+    margin: 0.05rem 0 0.15rem 0;
+}
+.yan{
+    height: 0.48rem;
+    margin-top: 0.15rem;
+}
+#pin {
+    width: 2.55rem;
+    line-height: 2.2em;
+    height: 0.48rem;
+    border: 1px solid #a0a0a0;
+    padding: 0.05rem;
+    box-sizing: border-box;
+    color: #ACACAC;
+    font-size: 0.14rem;
+    float: left;
+    border-radius: 0.05rem;
+}
+.captcha-image {
+    width: 1rem;
+    height: 0.47rem;
+    background: #999966;
+    float: right;
+    border-radius: 0.05rem;
+}
+#jq_submit {
+    width: 0.64rem;
+    height: 0.35rem;
+    background: #E49958;
+    color: #fff;
+    font-size: 0.1rem;
+    line-height: 0.22rem;
+    text-align: center;
+    border: none;
+    margin:0.15rem 0;
+}

@@ -1,0 +1,86 @@
+@import "base.css";
+header{
+    width: 3.75rem;
+    height: 0.96rem;
+    background: #336699;
+    margin:0 auto;
+}
+.head_top{
+    width: 1.64rem;
+    height: 0.44rem;
+    padding: 0.1rem 0 0 0.08rem;
+}
+.head_top img{
+    display: block;
+}
+.head_bottom{
+    width: 2.24rem;
+    height: 0.32rem;
+    float: right;
+    margin-top: 0.1rem;
+    display: flex;
+    justify-content: space-around;
+}
+.deng{
+    width: 0.66rem;
+    height: 0.3rem;
+    background: #EE9966;
+    color:#fff;
+    font-size: 0.14rem;
+    text-align: center;
+    line-height: 0.3rem;
+}
+.deng:nth-child(2){
+    background: #F9F9F9;
+    color: #000;
+}
+.deng:nth-child(3){
+    background: #CC6666;
+}
+nav{
+    width: 3.65rem;
+    height: 0.24rem;
+    margin: 0.15rem auto;
+}
+nav img{
+    width: 0.3rem;
+    display: block;
+    float: left;
+}
+nav p{
+    font-size: 0.12rem;
+    color: #000;
+    float: left;
+    text-align: center;
+    line-height: 0.24rem;
+}
+.main{
+    width: 3.65rem;
+    height: 9.22rem;
+    margin: 0 auto;
+}
+.title-b {
+    margin: 0.2rem 0;
+    font-weight: bold;
+    font-size: 0.16rem;
+    line-height: 0.15rem;
+}
+#min{
+    width: 7rem;
+    height: 2.2rem;
+}
+#max{
+    width: 7rem;
+    height: 2.2rem;
+}
+#mne{
+    width: 7rem;
+    height: 2.2rem;
+}
+#ft{
+    clear: both;
+    color: #808080;
+    font-size: 0.12rem;
+    line-height: 0.15rem;
+    margin: 0.2rem 0 0.3rem 0;
+}

@@ -1,0 +1,161 @@
+@import "base.css";
+header{
+    width: 3.75rem;
+    height: 0.4rem;
+    background: #336699;
+    margin:0 auto;
+    position: relative;
+}
+#mobile{
+    position: absolute;
+    background: url(../img/ap01.png)center no-repeat;
+    background-position: 0px 0px;
+    height: 0.29rem;
+    width: 0.29rem;
+    overflow: hidden;
+    cursor: pointer;
+    float: left;
+    top: 0.04rem;
+    left: 0.05rem;
+}
+header a{
+    width: 0.7rem;
+    height: 0.3rem;
+    padding: 0 0.1rem;
+    font-size: 0.14rem;
+    color: #fff;
+    float: right;
+    margin-top: 0.1rem;
+}
+.hell{
+    width: 3.75rem;
+    height: 0.25rem;
+    margin: 0 auto;
+    background: #D2E1F4;
+    padding: 0.06rem 0 0.06rem 0.05rem;
+    font-size: 0.16rem;
+    line-height: 0.25rem;
+    display: flex;
+    justify-content: space-between;
+}
+.san{
+    width: 0.58rem;
+    height: 0.24rem;
+}
+.san img{
+    width: 0.14rem;
+    height: 0.11rem;
+    display: block;
+    float: left;
+    margin-top: 0.07rem;
+}
+.san p{
+    float: left;
+    font-size: 0.16rem;
+    color: #8997a9;
+    line-height: 0.24rem;
+    margin-left: 0.04rem;
+}
+.san1{
+    width: 2.46rem;
+    height: 0.24rem;
+}
+.san1-f{
+    float: left;
+}
+.san1 .san1-f:nth-child(2){
+    margin-left: 0.2rem;
+}
+.home{
+    font-size: 0.16rem;
+    color: #990000;
+    font-weight: bold;
+    display: inline-block;
+}
+.home1{
+    color: #01418e;
+    display: inline-block;
+}
+.san2{
+    width: 0.64rem;
+    height: 0.24rem;
+    font-size: 0.16rem;
+    color: #01418e;
+    text-align: center;
+    line-height: 0.24rem;
+}
+.bottomBar{
+    height: 0.01rem;
+    width: 3.75rem;
+    background: #799FD3;
+}
+.homeContent{
+    width: 3.65rem;
+    height: 4.62rem;
+    margin: 0 auto;
+}
+.homeContent table{
+    width: 3.65rem;
+    height: 1.35rem;
+}
+.classGif{
+    background: transparent url(../img/ap03.gif) -64px 0 no-repeat;
+    width: 0.32rem;
+    height: 0.32rem;
+    margin-top: 0.03rem;
+}
+.examGif{
+     background: transparent url(../img/ap03.gif) -128px 0 no-repeat;
+     width: 0.32rem;
+     height: 0.32rem;
+     margin-top: 0.03rem;
+ }
+.todoGif{
+    background:transparent url(../img/ap03.gif) -96px 0 no-repeat;
+    width: 0.32rem;
+    height: 0.32rem;
+    margin-top: 0.03rem;
+}
+.fst{
+    width: 3.19rem;
+    height: 0.48rem;
+}
+.br-padding20,.br-nopadding .ban{
+    padding-right: 0.2rem;
+    font-size: 0.16rem;
+    line-height: 0.24rem;
+    color: red;
+    float: left;
+}
+.fst .br-padding20:nth-of-type(1)~ .br-padding20{
+    color: #01418e;
+}
+.br-nopadding a{
+   color: #01418e;
+}
+.br-nopadding .ban{
+    padding-right:0.05rem ;
+    color: #01418e;
+}
+.jq-help{
+    height: 0.15rem;
+    width: 0.15rem;
+    display:block;
+    float: left;
+}
+.jq-help span{
+    background-position: 0.02rem 0px;
+    height: 0.15rem;
+    width: 0.15rem;
+    text-decoration: none;
+    outline: none;
+    line-height: 0.12rem;
+    display: inline-block;
+    background: transparent url(../img/ap04.png) no-repeat
+}
+.description{
+    font-size: 0.12rem;
+    line-height: 0.16rem;
+    color: #a0a0a0;
+    margin: 0.03rem 0 0.08rem 0;
+}

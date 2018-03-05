@@ -1,0 +1,82 @@
+@import "base.css";
+header{
+    width: 3.75rem;
+    height: 0.64rem;
+    background: #336699;
+    margin:0 auto;
+}
+.head_top{
+    width: 1.64rem;
+    height: 0.44rem;
+    padding: 0.1rem 0 0 0.08rem;
+    float: left;
+}
+.head_top img{
+    display: block;
+}
+.head_bottom{
+    float: right;
+    margin: 0.24rem 0;
+    background: #336699;
+    color: #fff;
+    padding: 0 0.1rem;
+    line-height: 0.3rem;
+    font-size: 0.14rem;
+}
+nav{
+    width: 3.65rem;
+    height: 0.24rem;
+    margin: 0.15rem auto;
+}
+nav img{
+    width: 0.3rem;
+    display: block;
+    float: left;
+}
+nav p{
+    font-size: 0.16rem;
+    color: #000;
+    float: left;
+    text-align: center;
+    line-height: 0.24rem;
+}
+.spd{
+    margin: 0 0.03rem;
+}
+.uid {
+    width: 100%;
+    font-weight: bold;
+    font-size: 0.3rem;
+    line-height: 0.3rem;
+    margin: 0.3rem 0.03rem;
+}
+.info-bar {
+    margin: 0.05rem 0;
+    font-size: 0.16rem;
+    line-height: 0.24rem;
+}
+.bar1{
+    margin: 0.05rem 0;
+    font-size: 0.16rem;
+    line-height: 0.24rem;
+}
+.jq-button {
+    min-height: 2.2em;
+    _height: 2.2em;
+    line-height: 0.22rem;
+    border: 0;
+    vertical-align: middle;
+    text-align: center;
+    background: #E49958;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 0 1em;
+    _padding: 0 1em;
+    margin: 2px 0;
+    font-size: 1em;
+    font-weight: bold;
+    -webkit-border-radius: 0.2em;
+    border-radius: 0.2em;
+    outline: none;
+    margin: 0 0.03rem;
+}
